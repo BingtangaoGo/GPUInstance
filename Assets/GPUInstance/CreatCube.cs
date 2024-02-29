@@ -21,13 +21,6 @@ public class CreatCube : MonoBehaviour
             if (_bRandPos)
             {
                 pGO.transform.localPosition = Random.insideUnitSphere * 15.0f;
-                // pGO.GetComponent<Renderer>().material.color =
-                //     new Color(Random.Range(0, 1f), Random.Range(0, 1f), Random.Range(0, 1f));
-                // pGO.GetComponent<Renderer>().material.SetColor("_Color1",  new Color(Random.Range(0, 1f), Random.Range(0, 1f), Random.Range(0, 1f)));
-                   
-                // MaterialPropertyBlock block = new MaterialPropertyBlock();
-                // block.SetColor("_Color", new Color(Random.Range(0, 1f),Random.Range(0, 1f),Random.Range(0, 1f)));
-                // pGO.GetComponent<MeshRenderer>().SetPropertyBlock(block);
             }
             else
             {

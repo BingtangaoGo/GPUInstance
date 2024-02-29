@@ -23,9 +23,9 @@ Shader "test/Ulit"
             CBUFFER_START(UnityPerMaterial)
         TEXTURE2D(_BaseMap);     
                 SAMPLER(sampler_BaseMap);    
-             float _ExampleName;
+            
             CBUFFER_END
-                    
+                float _ExampleName;
             float4 _color[3];
       //   int   unity_InstanceID;
               struct Attributes{

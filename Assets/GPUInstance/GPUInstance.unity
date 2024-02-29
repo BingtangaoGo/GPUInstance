@@ -626,4 +626,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 2061393093}
-  InstanceCount: 10000
+  InstanceCount: 1000
